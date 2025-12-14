@@ -31,7 +31,11 @@ This demonstrates real security automation in a beginner-friendly way.
 ---
 
 ## File Structure
+## Troubleshooting note
+if you see “nmap: command not found” it is cause nmap wasnt installed.
+
 
 ## How to Run
 ```bash
 python3 threat_intel_nmap.py
+
