@@ -1,0 +1,15 @@
+import shutil
+import sys
+import subprocess
+
+def ensure_nmap_installed():
+    """Verify nmap is on PATH; if not, prompt the user."""
+    if shutil.which("nmap") is None:
+        print("Nmap is not installed. Please install it and run the script again.")
+        # Optionally exit or offer guidance:
+        # sys.exit("Please run `sudo apt install nmap` on Debian/Ubuntu or consult your OS docs.")
+    else:
+        print("Nmap found:", shutil.which("nmap"))
+
+# call at the top of main()
+ensure_nmap_installed()
