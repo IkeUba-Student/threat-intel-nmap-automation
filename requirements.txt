@@ -1,1 +1,2 @@
-requests
+internet access
+sudo apt install nmap
