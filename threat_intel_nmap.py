@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
 """
+"""
 Automated Threat Intelligence + Nmap Scanner
-Author: [Your Name]
+Author: Ikenna Ubadiniru + Kevin Maldonado
 Course: Security Automation
+"""
+
 
 This script:
 1. Downloads a public threat intelligence feed containing suspicious IPs.
