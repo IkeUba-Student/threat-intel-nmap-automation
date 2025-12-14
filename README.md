@@ -31,3 +31,7 @@ This demonstrates real security automation in a beginner-friendly way.
 ---
 
 ## File Structure
+
+## How to Run
+```bash
+python3 threat_intel_nmap.py
