@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-"""
-Automated Threat Intelligence + Nmap Scanner
-Author: Ikenna Ubadiniru + Kevin Maldonado
-Course: Security Automation
-
-What it does:
-1) Downloads an open-source threat feed (IPs).
-2) Extracts IP addresses (IOCs).
-3) Scans a small number of IPs with nmap.
-4) Saves each scan output to a file.
-5) Prints a summary of open ports.
-
-Notes:
-- You must have nmap installed on Ubuntu: sudo apt install nmap -y
-- Some feeds may block requests (403). If that happens, use the LOCAL_FEED_FALLBACK.
-"""
-
 from typing import List, Tuple
 import re
 import shutil
