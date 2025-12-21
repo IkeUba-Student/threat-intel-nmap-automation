@@ -1,2 +1,2 @@
-internet access
-sudo apt install nmap
+requests>=2.25.0
+ipaddress>=1.0.22; python_version<"3.3"
