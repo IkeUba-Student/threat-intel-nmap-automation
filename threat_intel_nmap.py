@@ -16,6 +16,7 @@ Notes:
 - Some feeds may block requests (403). If that happens, use the LOCAL_FEED_FALLBACK.
 """
 
+from typing import List, Tuple
 import re
 import shutil
 import subprocess
@@ -86,7 +87,7 @@ def load_feed_text() -> str:
             raise SystemExit(1)
 
 
-def extract_ipv4s(feed_text: str) -> list[str]:
+def extract_ipv4s(feed_text: str) -> List[str]:
     """
     Extract IP addresses from the feed text.
     This does:
